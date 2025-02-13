@@ -1,0 +1,13 @@
+# Discord OAuth2 settings
+CLIENT_ID=1332875225947439229
+CLIENT_SECRET=yMl3oBvFyaxa_USsuAjHjIvM1Cord2It
+REDIRECT_URI=http://lunapos.xyz/dashboard.html
+
+# Roblox OAuth2 settings
+RBX_CLIENT_ID=
+RBX_CLIENT_SECRET=
+
+JWT_SECRET=sghjktreqwtyuhtrgw46ubwheyruib7ie576ib36uwr6hw5rjnw5
+
+MONGO_URI=mongodb+srv://bigza:bigzathegoat@database.1ktcr.mongodb.net/lunaPOS?retryWrites=true&w=majority
+
