@@ -44,7 +44,7 @@ const authenticateUser = async (req, res, next) => {
 };
 
 app.get("/", (req, res) => {
-  res.redirect("../index.html");
+  res.redirect("https://lunapos.xyz/");
 });
 
 app.get("/api/auth/roblox/callback", async (req, res) => {
