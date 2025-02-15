@@ -27,6 +27,7 @@ app.use(helmet());
 app.use(mongoSanitize());
 app.use(cookieParser());
 app.use(limiter);
+app.set('trust proxy', 1);
 
 const authenticateUser = async (req, res, next) => {
   const token = req.headers.authorization;
